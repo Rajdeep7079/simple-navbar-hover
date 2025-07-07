@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop down menu</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li onmouseenter="toggledrop(this,true)" onmouseleave="toggledrop(this,false)">
+                <a href="#">Home</a>
+                <div class="drop">
+                    <a href="">Mens</a>
+                    <a href="">Women</a>
+                    <a href="">Kids</a>
+                </div>
+
+            </li>
+
+            <li onmouseenter="toggledrop(this,true)" onmouseleave="toggledrop(this,false)">
+                <a href="#">Services</a>
+
+                <div class="drop">
+                    <a href="">Clothing</a>
+                    <a href="">Beauty</a>
+                    <a href="">Fashion</a>
+                </div>
+
+            </li>
+
+            <li onmouseenter="toggledrop(this,true)" onmouseleave="toggledrop(this,false)">
+                    <a href="#">Contact</a>
+                
+
+            </li>
+        </ul>
+    </nav>
+</body>
+<script src="index.js"></script>
+</html>
